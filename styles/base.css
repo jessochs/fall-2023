@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap');
+
+header {
+    height: 250px;
+    display: flex;
+    font-family: Noto serif;
+    background-color: hotpink;
+    gap: 50px;
+    /* align-items: center; */
+    padding: 20px;
+
+}
+nav {
+    font-family: Noto serif;
+    display: flex;
+    gap: 245px;
+    background-color: black;
+    text-align: center;
+    
+    
+}
+nav a {
+    text-decoration: none;
+    font-family: Noto serif;
+    color: white
+    
+}
+main {
+    width: 500px;
+    display: grid;
+    align-items: center;
+}
+.card {
+    display: grid;
+    align-items: center;
+}
+.card li{
+    
+    list-style-type: none;
+}
+h3 {
+    width: 100%;
+    font-family: Noto serif;
+    background-color: hotpink;
+}
+footer {
+    text-align: center;
+    background-color: hotpink;
+}
