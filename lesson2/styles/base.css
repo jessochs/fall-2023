@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: Roboto, sans-serif;
+}
+header {
+    
+    align-content: center;
+    font-family: Roboto, sans-serif;
+    background-color: rgba(97, 177, 105, 0.914);
+    color: white;
+    padding: 20px;
+
+}
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+h1 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    background-color: rgba(97, 177, 105, 0.914);
+    color: black;
+    
+    text-align: center;
+
+}
+#etsy {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 20px;
+    background-color: rgba(97, 177, 105, 0.411);
+    border-color: black;
+    font-size: 1em;
+}
+
+#amazon {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 20px;
+    background-color: rgba(97, 177, 105, 0.411);
+    border-color: black;
+    font-size: 1em;
+}
+#mayo {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 20px;
+    background-color: rgba(97, 177, 105, 0.411);
+    border-color: black;
+    font-size: 1em;
+}
+footer {
+    background-color: rgba(97, 177, 105, 0.914);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 1em;
+}

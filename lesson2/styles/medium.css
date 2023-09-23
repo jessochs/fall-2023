@@ -1,0 +1,30 @@
+
+@media only screen and (min-width: 700px) {
+
+   
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+    #etsy {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 20px;
+        border-color: black;
+        font-size: 12px;
+    }
+    #amazon {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding: 20px;
+        border-color: black;
+        font-size: 12px;
+    }
+    #mayo {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        padding: 20px;
+        border-color: black;
+        font-size: 12px;
+    }
+}
