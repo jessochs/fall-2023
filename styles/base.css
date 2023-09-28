@@ -102,6 +102,13 @@ nav a:hover {
 	content: '❌';
 }
 
+.active::before {
+    content: "✨";
+}
+.active::after {
+    content: "✨";
+}
+
 .navigation {
 	display: flex;
 	flex-direction: column;
@@ -133,4 +140,11 @@ nav a:hover {
 }
 .open li a {
 	display: block;
+}
+
+iframe {
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    width: 100%;
 }
