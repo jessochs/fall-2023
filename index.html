@@ -8,7 +8,8 @@
     <meta property="title" content="Jessica Facer - WDD 230 - Web Frontend Development">
     <meta property="type" content="website">
     <meta propert="author" content="Jessica Facer">
-    <meta property="image" content="https://visitidaho.org/content/uploads/2016/06/Teton-Valley_Idaho-Tourism-700x525.jpg">
+    <meta property="image"
+        content="https://visitidaho.org/content/uploads/2016/06/Teton-Valley_Idaho-Tourism-700x525.jpg">
     <meta property="url" content="https://jessochs.github.io/wdd230/">
     <title>Jessica Facer - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/normalize.css">
@@ -24,11 +25,14 @@
 
     </header>
     <nav>
-        <a href="#">Home</a>
-        <a href="chamber/siteplan.html">Site Plan</a>
-        <a href="chamber/">Chamber</a>
-        <a href="https://www.byui.edu/">BYU-Idaho</a>
-        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng">Scripture</a>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="chamber/siteplan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng">Scripture</a></li>
+        </ul>
     </nav>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
@@ -36,8 +40,11 @@
         <section class="card">
             <h3>Activities</h3>
             <ul>
-                <li><a>01:</a><a href="lesson01/holygrail.html">Holy Layout</a> <a>|</a><a href="lesson01/media-query.html"> Media Query</a></li>
-                <li><a>02:</a><a href="lesson02/design.html">Design</a><a>|</a><a href="lesson2/design-principes.html"> Design Principles</a></li></li>
+                <li><a>01:</a><a href="lesson01/holygrail.html">Holy Layout</a> <a>|</a><a
+                        href="lesson01/media-query.html"> Media Query</a></li>
+                <li><a>02:</a><a href="lesson02/design.html">Design</a><a>|</a><a href="lesson2/design-principes.html">
+                        Design Principles</a></li>
+                </li>
                 <li><a>03:</a><a href="images/Screenshot 2023-09-27 093122.png">Combinator Exercise</a></li>
                 <li><a>04:</a></li>
                 <li><a>05:</a></li>
@@ -50,16 +57,18 @@
         </section>
         <section class="card">
             <h3>Information</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-
+            <p>City:</p>
+            <p>Weather</p>
+            <p>Number if Visits</p>
         </section>
-       
+
     </main>
     <footer>
         <p>&copy; <span id="year"></span> .:|:. Jessica Facer .:|:. Arizona</p>
         <p>Last Updated <span id="last-updated"></span></p>
     </footer>
     <script src="./scripts/getdate.js"></script>
+    <script src="./scripts/hamburger.js"></script>
 </body>
 
 </html>
