@@ -1,0 +1,47 @@
+@media screen and (min-width: 37.5em) {
+
+    header {
+        justify-content: center;
+    }
+
+    main {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        width: 100%;
+    }
+    nav ul {
+		display: flex;
+	}
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    .hero {
+        grid-column: 1/4;
+    }
+    .join {
+        grid-column: 1/4;
+    }
+    .events {
+        grid-column: 1/2;
+    }
+    .weather {
+        grid-column: 2/4;
+    }
+}

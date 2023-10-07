@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&family=Poppins:wght@300&family=Roboto&display=swap');
+
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    font-family: Noto serif;
+    background-color: #157c7e;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    font-family: Noto serif;
+    display: flex;
+    gap: 245px;
+    background-color: #94d2bd96;
+    color: black;
+    
+    text-align: center;
+}
+
+nav a {
+    
+    font-family: Noto serif;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+	border: 1px solid #fff;
+}
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+    background-color: #94d2bd96;
+	color: black;
+	
+}
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: .25rem .75rem;
+	background-color: #94d2bd96;
+	color: black;
+	position: relative;
+	/* top: 1rem;
+	right: 1rem; */
+    
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: '❌';
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #94d2bd96;
+	color: black;
+}
+.navigation li {
+	display: none;
+}
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+    
+}
+.navigation li a:hover {
+	background-color: black;
+	color: white;
+	font-weight: 700;
+}
+
+main {
+    /* width: 500%; */
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    align-items: center;
+    font-family: Noto serif;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.hero {
+    justify-content: center;
+    margin: auto;
+}
+.hero img {
+    border: solid black;
+}
+.join {
+    border: solid black;
+    text-align: center;
+    justify-content: center;
+    background-color: #157c7e;
+    color: white;
+}
+.events {
+    border: solid black;
+    text-align: center;
+    background-color: #94d2bd96;
+    color: black;
+    padding: 20px;
+}
+.weather {
+    border: solid black;
+    text-align: center;
+    background-color: #94d2bd96;
+    color: black;
+    padding: 20px;
+}
+.spot1 {
+    border: solid black;
+    text-align: center;
+    padding: 20px;
+}
+h3 {
+    background-color: #a62014;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+.spot2 {
+    border: solid black;
+    text-align: center;
+    padding: 20px;
+}
+.spot3 {
+    border: solid black;
+    text-align: center;
+    padding: 20px;
+}
+footer {
+    background-color: #157c7e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
