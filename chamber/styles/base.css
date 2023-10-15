@@ -125,6 +125,8 @@ main {
     border: solid black;
     text-align: center;
     padding: 20px;
+    background-color: white;
+    color: black;
 }
 h3 {
     background-color: #a62014;
@@ -136,11 +138,16 @@ h3 {
     border: solid black;
     text-align: center;
     padding: 20px;
+    background-color: white;
+    color: black;
 }
 .spot3 {
     border: solid black;
     text-align: center;
     padding: 20px;
+    background-color: white;
+    color: black;
+    
 }
 footer {
     background-color: #157c7e;
@@ -148,4 +155,11 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100%;
+}
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
 }
