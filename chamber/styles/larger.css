@@ -45,4 +45,60 @@
     .weather {
         grid-column: 3/4;
     }
+    .information {
+        grid-column: 1/3;
+        
+    }
+    #cactus {
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+    #mountain {
+        grid-column: 3/4;
+        grid-row: 2;
+    }
+    #phoenix {
+        grid-column: 3/4;
+        grid-row: 3;
+    }
+    #balloon {
+        grid-column: 3/4;
+        grid-row: 4;
+    }
+    #highway {
+        grid-column: 3/4;
+        grid-row: 5;
+    }
+    #sunset {
+        grid-column: 3/4;
+        grid-row: 6;
+    }
+    img {
+        width: 100%;
+        background: black;
+        animation: fade 10s; 
+    
+      }
+    
+      @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+        
+        
+      }
+      img:hover {
+        box-shadow: 0 0 30px #333;
+      }
+      .calender {
+        grid-column: 1/2;
+      }
+      .content {
+        grid-column: 1/3;
+        grid-row: 2/4;
+      }
+
 }
