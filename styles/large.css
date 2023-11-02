@@ -49,6 +49,10 @@
     .card2 {
         grid-column: 2/4;
     }
+    form input.submitBtn:hover {
+        box-shadow: 0 0 30px #333;
+      }
+
 	
     
 }
