@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230 -Web Frontend Development - Jessica Facer - Course assignemnt portal">
+    <meta name="description" content="WDD 230 -Web Frontend Development - Jessica Facer - Form Page">
     <meta property="og:title" content="Jessica Facer - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
     <meta name="og:author" content="Jessica Facer">
     <meta property="og:description"
-        content="WDD 230 -Web Frontend Development - Jessica Facer - Course assignemnt portal">
+        content="WDD 230 -Web Frontend Development - Jessica Facer - Form Page">
     <meta property="og:image"
         content="https://visitidaho.org/content/uploads/2016/06/Teton-Valley_Idaho-Tourism-700x525.jpg">
     <meta property="og:url" content="https://jessochs.github.io/wdd230/">
@@ -37,13 +37,38 @@
         </ul>
     </nav>
     <main>
-        
+        <h1>Course Form</h1>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Login Information</legend>
+                <label class="top">Username*<input type="text" id="username" name="username" required> </label>
+                <label class="top">Password*<input type="password" id="password" name="password" pattern=".{8,}"
+                        title="Eight or more characters" required></label>
+                <label class="top">Password Confirmation*<input type="password" id="keyphrase2" name="keyphrase2" required></label>
+                <label class="top">Email*<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                        title="Please enter a vaild email address" required></label>
+                <label class="top" for="r">Please Choose a rating from 1-10</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Enter My Reply" class="submitBtn">
+        </form>
 
     </main>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13286.755000410862!2d-112.2271232!3d33.639311449999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1695866269395!5m2!1sen!2sus"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     <footer>
         <p>&copy; <span id="year"></span> .:|:. 🌷Jessica Facer🌷 .:|:. Arizona</p>
         <p>Last Updated <span id="last-updated"></span></p>
@@ -51,6 +76,7 @@
     <script src="./scripts/getdate.js"></script>
     <script src="./scripts/hamburger.js"></script>
     <script src="./scripts/localstorage.js"></script>
+    <script src="./scripts/form.js"></script>
 </body>
 
 </html>
