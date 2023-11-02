@@ -225,4 +225,7 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
+:root {
+    background: white;
+  }
 
