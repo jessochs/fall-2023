@@ -182,3 +182,41 @@ h4 {
     color: white;
 }
 
+form fieldset {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+form label.top {
+    display: block;
+    padding: 10px;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+}
+form input.submitBtn {
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+    margin: 0 0 2rem 2%;
+}
+
+.membership {
+    border: 2px solid black;
+    text-align: center;
+}
+.membership h3{
+    max-width: 98%;
+}
+form label.top input:required {
+    border-left: rgb(187, 8, 8) solid 6px;
+}
+form label.top input:required:valid {
+    border-left: rgb(25, 222, 25) solid 6px;
+}

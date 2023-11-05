@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 Chamber of Commerce Join page - Jessica Facer">
+    <meta property="og:title" content="Jessica Facer - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta name="og:author" content="Jessica Facer">
+    <meta property="og:description" content="WDD 230 -Web Frontend Development - Jessica Facer - Join page">
+    <meta property="og:image"
+        content="https://visitidaho.org/content/uploads/2016/06/Teton-Valley_Idaho-Tourism-700x525.jpg">
+    <meta property="og:url" content="https://jessochs.github.io/wdd230/">
+    <title>Glendale Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="cacti.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Glendale Chamber of Commerce</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a> </li>
+            <li><a href="discover.html">Discover</a> </li>
+            <li><a href="#">Join</a> </li>
+            <li><a href="#">Directory</a> </li>
+        </ul>
+    </nav>
+    <div id="mode">
+        🕶️
+    </div>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Join Us!</legend>
+                <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
+                <label class="top">Position <input type="text" id="position" name="lposition" pattern></label>
+                <label class="top">Email* <input type="email" id="email" name="email" placeholder="name@gmail.com" required></label>
+                <label class="top">Phone Number* <input type="tel" id="phone" name="phone" required></label>
+                <label class="top">Business Name* <input type="text" id="bname" name="bname" required></label>
+                <label class="top">Membership Level<select name="membership">
+                        <option value="">Please Select</option>
+                        <option value="Non">Non Profit</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+                </label>
+                <label class="top">Business Description<textarea id="comments" name="comments"></textarea></label>
+                <label class="top">Timestamp <span id="time"></span><input type="hidden" id="stamp" name="stamp"></label>
+            </fieldset>
+            <input type="submit" value="Finish My Application" class="submitBtn">
+
+        </form>
+
+        <section class="membership">
+            <h2>Membership Descriptions</h2>
+            <h3>Non Profit</h3>
+            <p>Access to online promotions</p>
+            <p>Limited free marketing<p>
+            <p>No charge</p>
+
+            <h3>Bronze</h3>
+            <p>Access to online promotions</p>
+            <p>Limited free marketing</p>
+            <p>Physical promotions at community events</p>
+            <p>Discounts from other local businesses</p>
+            <p>$25/month</p>
+
+            <h3>Silver</h3>
+            <p>Access to online promotions</p>
+            <p>Limited free marketing</p>
+            <p>$75/month</p>
+
+            <h3>Gold</h3>
+            <p>Access to online promotions</p>
+            <p>Free marketing</p>
+            <p>One free class a month</p>
+            <p>Promotions in weekly newsletters and emails</p>
+            <p>Access to a network of deals and promos through other businesses</p>
+            <p>$100/month</p>
+        </section>
+    </main>
+    <footer>
+        <p>🌷Jessica Facer🌷 .:|:. Chamber Project .:|:. WDD 230</p>
+        <p>Last Updated <span id="last-updated"></span></p>
+    </footer>
+    <script src="./scripts/lastmodified.js"></script>
+    
+</body>
+
+</html>

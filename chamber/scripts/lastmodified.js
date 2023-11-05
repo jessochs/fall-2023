@@ -26,6 +26,7 @@ modeButton.addEventListener("click", () => {
 
 const today = new Date();
 document.querySelector('#year').textContent = today.getFullYear();
+document.querySelector("#time").textContent = today.getDate();
 
 document.addEventListener('DOMContentLoaded', function () {
 	const daysElement = document.querySelector(".visitor");
