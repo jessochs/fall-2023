@@ -1,0 +1,25 @@
+{
+    "familyName" : "The Ochs",
+    "moved" : "December 31, 2021",
+    "numberFamilyMembers" : "3",
+    "bishopricVisited" : "yes",
+    "familyMembers" : [
+        {
+            "name" : "Logan Ochs",
+            "gender" : "Male",
+            "birthdate" : "March 31, 1998"
+
+        },
+        {
+            "name" : "Jessica Ochs",
+            "gender" : "female",
+            "birthdate" : "November 9, 1998"
+        },
+        {
+            "name" : "Finnegan Ochs",
+            "gender" : "Male",
+            "birthdate" : "October 20, 2023"
+        }
+    ]
+}
+
