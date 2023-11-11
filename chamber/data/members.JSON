@@ -1,0 +1,77 @@
+{
+    "businesses": [
+        {
+            "name": "Julie's Nails",
+            "img" : "https://i.pinimg.com/736x/6c/d4/42/6cd44293419718b2a67888a156c85ffe--funky-nails-salon-logo.jpg",
+            "phone": "623-247-9681",
+            "address": "5843 West Indian School Road Phoenix, AZ 85301",
+            "website": "n/a",
+            "membership": "NP"
+
+        },
+        {
+            "name": "Pasteleria Azteca",
+            "img" : "https://clipartmag.com/images/bakery-clipart-free-6.jpg",
+            "phone": "623-266-7251",
+            "address": "5893 West Indian School Road Unit B Phoenix, AZ 85301",
+            "website": "pasteleria-azteca.business.site",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Abbie's Cakes",
+            "img" : "https://clipart-library.com/newimages/birthday-cake-clip-art-51.png",
+            "phone": "602-842-1941",
+            "address": "5110 N Dysart Rd Litchfield Park, AZ 85340",
+            "website": "https://www.abbiecakesco.com/",
+            "membership": "Silver"
+        },
+        {
+            "name": "Kneader's",
+            "img" : "https://logonoid.com/images/kneaders-logo.jpg",
+            "phone": "623-223-1636",
+            "address": "20630 N 75th Ave Glendale, AZ 85308",
+            "website": "https://www.kneaders.com/",
+            "membership": "Silver"
+        },
+        {
+            "name": "Harkins",
+            "img": "https://www.desertstages.org/wp-content/uploads/2017/08/Harkins-Logo.png",
+            "phone": "623-412-0122",
+            "address": "16046 N Arrowhead Fountain Drive Peoria, AZ 85382",
+            "website": "harkins.com",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Costco",
+            "img": "https://heartofcodes.com/wp-content/uploads/2019/07/costco-logo-1600x573.png",
+            "phone": "623-776-4003",
+            "address": "17550 N 79th Ave Glendale, AZ 85308",
+            "website": "https://www.costco.com/",
+            "membership": "Gold"
+        },
+        {
+            "name": "Larry H Miller Toyota",
+            "img": "https://1000logos.net/wp-content/uploads/2018/02/Toyota-logo.png",
+            "phone": "623-432-1790",
+            "address": "8633 W Bell Road Peoria, AZ 85382",
+            "website": "https://www.larrymillerdodge.com/",
+            "membership": "Gold"
+        },
+        {
+            "name": "Trader Joe's",
+            "img" : "https://clipartcraft.com/images/trader-joes-logo-high-resolution-11.png",
+            "phone": "623-776-7414",
+            "address": "7220 W Bell Road Glendale, AZ 85308",
+            "website": "locations.traderjoes.com",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Barro's",
+            "img": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/71/ca/6f/71ca6f22-9d45-b209-3828-009557e38252/source/256x256bb.jpg",
+            "phone": "623-362-8080",
+            "address": "20165 N 67th Ave Glendale, AZ 85308",
+            "website": "barrospizza.com",
+            "membership": "https://barrospizza.com/"
+        }
+    ]
+}
