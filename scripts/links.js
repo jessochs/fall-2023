@@ -14,12 +14,15 @@ const displayLinks = (weeks) => {
     weeks.forEach((week) => {
         
         let li = document.createElement('li');
+        
        
         week.links.forEach((link) => {
+            
             let lesson = document.createElement('a');
             let divider = document.createElement('span');
             divider.textContent = "|";
 
+            
             lesson.textContent = link.title;
             lesson.setAttribute('href', link.url);
 
