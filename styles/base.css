@@ -76,6 +76,14 @@ main {
     
 
 }
+.card2 {
+    text-align: center;
+}
+.card2 figure img {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
 
 h2 {
     margin-left: 10px;
