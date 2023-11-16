@@ -83,6 +83,7 @@ main {
     border: 1px solid black;
     border-radius: 0.5rem;
     padding: 5px;
+    background-color: rgba(211, 211, 211, 0.396);
 }
 
 h2 {
