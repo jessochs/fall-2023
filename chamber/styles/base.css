@@ -8,6 +8,7 @@ header {
     background-color: #157c7e;
     color: white;
     padding: 20px;
+    font-size: 1.5rem;
 }
 
 nav {
@@ -122,6 +123,13 @@ nav a:hover {
     color: black;
     padding: 20px;
 }
+.weather figure img {
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: rgb(147, 142, 142);
+}
 .spot1 {
     border: solid black;
     text-align: center;
@@ -164,12 +172,17 @@ footer {
 	font-size: 3rem;
 	cursor: pointer;
 }
+
  .information {
     border: solid black;
     text-align: center;
     padding: 20px;
     gap: 10px;
     line-height: 1.8;
+}
+.photos p {
+    font-family: Noto serif;
+
 }
 .content {
     border: solid black;
@@ -178,9 +191,17 @@ footer {
     gap: 10px;
     line-height: 1.8;
 }
+#cactus {
+    width: 500px;
+    height: 450px;
+}
 h4 {
     background-color: #BB3E03;
     color: white;
+}
+
+.photos h2 {
+    text-align: center;
 }
 /* form */
 /* .fillout {

@@ -54,6 +54,20 @@ document.addEventListener('DOMContentLoaded', function () {
 	localStorage.setItem('lastVisitDate', today.toString());
 })
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const visits = document.querySelector("#visits");
 // let lastVisit = window.localStorage.getItem("lastVisit");
 // let daysSinceLastVisit;
