@@ -130,12 +130,18 @@ nav a:hover {
     border-radius: 0.5rem;
     background-color: rgb(147, 142, 142);
 }
-.spot1 {
+.spotlights {
     border: solid black;
     text-align: center;
     padding: 20px;
     background-color: white;
     color: black;
+    
+}
+.spotlights img {
+    width: 100px;
+    height: 50px;
+    padding: 5px;
 }
 h3 {
     background-color: #a62014;
