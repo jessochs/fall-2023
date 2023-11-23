@@ -8,7 +8,7 @@ header {
     background-color: #157c7e;
     color: white;
     padding: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 nav {
@@ -104,9 +104,10 @@ nav a:hover {
     display: grid;
     /* grid-template-columns: 1fr; */
     align-items: center;
-    font-family: Noto serif; 
+    font-family: 'Noto serif', serif; 
     gap: 10px;
     margin: 0 auto;
+    
 } 
 
  .hero {
