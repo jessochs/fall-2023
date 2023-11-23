@@ -84,6 +84,20 @@ nav a:hover {
 	color: white;
 	font-weight: 700;
 }
+#banner {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    
+    padding: 10px;
+
+}
+#banner #remove-banner {
+    width: 10%;
+    
+}
+#banner #remove-banner:hover {
+    box-shadow: 2px 2px 5px grey;
+}
 
 .homepage {
     /* width: 500%; */

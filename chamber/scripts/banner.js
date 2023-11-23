@@ -9,29 +9,18 @@ if (weekday >=1 && weekday <= 3) {
 	document.querySelector("#message").textContent = message;
 } 
  
-let deleteButton = document.createElement('button');
+let closeButton = document.createElement("button");
+closeButton.textContent = "X";
+closeButton.classList.add("close-button");
 
-deleteButton.textContent = '❌';
+closeButton.addEventListener('click', function() {
+	let removeBanner = document.querySelector("#remove-banner");
+	removeBanner.remove();
+	bannerElement.style.display = 'none'
+});
 
-// function displayMessage() {
-//     let day = new Date();
-//     let weekday = day.getDay();
-//     let message;
+let bannerElement = document.querySelector("#banner");
+bannerElement.appendChild(closeButton);
 
-//     if (weekday >= 1 && weekday <= 5) {
-//         message = " 🤝🏼 Please join us for the Chamber Meet and Greet on Wednesday at 7:00 pm."
-//         document.querySelector("#message").textContent = message;
-//     }
 
-//     let deleteButton = document.createElement('button');
-//     deleteButton.textContent = '❌';
-//     deleteButton.classList.add('delete');
-//     message.append(deleteButton);
-
-//     deleteButton.addEventListener('click', function () {
-//         message.removeChild(message)
-//         // deleteChapter(scripture.textContent);
-//         input.focus();
-        
-//     })
 
