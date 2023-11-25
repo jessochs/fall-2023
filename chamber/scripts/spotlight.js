@@ -1,5 +1,6 @@
+const spotlightUrl = 'https://jessochs.github.io/wdd230/chamber/data/members.JSON';
 async function getBusinessData() {
-    const response = await fetch('data/members.json');
+    const response = await fetch(spotlightUrl);
     const data = await response.json();
     // console.log(data);
     const filterData = data.businesses.filter(item=> item.membership == "Silver" || item.membership == "Gold");

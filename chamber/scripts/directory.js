@@ -1,3 +1,5 @@
+const businessUrl = 'https://jessochs.github.io/wdd230/chamber/data/members.JSON';
+
 const displayBusinesses = (businesses) => {
     const cards = document.querySelector('div.cards');
 
@@ -33,7 +35,7 @@ const displayBusinesses = (businesses) => {
 }
 
 async function getBusinessData() {
-    const response = await fetch('data/members.json');
+    const response = await fetch(businessUrl);
     const data = await response.json();
 
     displayBusinesses(data.businesses);
