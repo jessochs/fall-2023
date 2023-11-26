@@ -12,7 +12,7 @@
         content="WDD 230 -Web Frontend Development - Jessica Facer - Course assignemnt portal">
     <meta property="og:image"
         content="https://visitidaho.org/content/uploads/2016/06/Teton-Valley_Idaho-Tourism-700x525.jpg">
-    <meta property="og:url" content="https://jessochs.github.io/wdd230/">
+    <meta property="og:url" content="https://jessochs.github.io/wdd230/chamber">
     <title>Glendale Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -52,9 +52,13 @@
         <section class="hero">
             <!-- <img src="images/desert-herosm.jpg" alt="Desert Picture"> -->
             <picture>
-                <source srcset="images/scenery-small.jpg" media="(max-width: 500px)">
+                <!-- <source srcset="images/scenery-small.jpg" media="(max-width: 500px)">
                 <source srcset="images/scenery-med.jpg" media="(max-width: 1000px)">
-                <img src="images/scenery-large.jpg" alt="temp hero" width="2300" height="850">
+                <img src="images/scenery-large.jpg" alt="temp hero" width="2300" height="850"> -->
+                <source media="(max-width: 300px)" srcset="images/scenery-small.jpg">
+                <source media="(max-width: 1000px)" srcset="images/scenery-med.jpg">
+                <source media="(max-width: 2300px)" srcset="images/scenery-large.jpg">
+                <img src="images/scenery-large.jpg" alt="background">
             </picture>
             <!-- hero image -->
         </section>
@@ -84,11 +88,12 @@
             <h2>Weather</h2>
             <p>Weather in Glendale: <span id="current-temp"></span></p>
             <figure>
-                <img id="weather-icon" >
+                <img id="weather-icon" src="https://openweathermap.org/img/w/01d.png" alt="weather icon" >
                 <figcaption style="text-transform: capitalize;"></figcaption>
             </figure>
             <p>Daily Forecast</p>
-            <p id="day-temp"></p>
+            <p><span id="day-temp"></span></p>
+
             <!-- api key ff1561849be172f6f7573c3546d94809  -->
             <!-- weather card -->
         </section>

@@ -97,7 +97,8 @@
         border: solid black 5px;
         
          */
-        display: flex;
+        display: grid;
+        /* flex-direction: row; */
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         background-color: white;
         text-align: center;
