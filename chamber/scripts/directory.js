@@ -1,7 +1,9 @@
 const businessUrl = 'https://jessochs.github.io/wdd230/chamber/data/members.JSON';
+const cards = document.querySelector('div.cards');
+
 
 const displayBusinesses = (businesses) => {
-    const cards = document.querySelector('div.cards');
+    // const cards = document.querySelector('div.cards');
 
     businesses.forEach((business) => {
         let card = document.createElement('section');

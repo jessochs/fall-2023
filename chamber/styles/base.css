@@ -113,9 +113,24 @@ nav a:hover {
  .hero {
     justify-content: center;
     margin: auto;
+    position: relative;
 }
 .hero img {
     border: solid black;
+}
+
+.herolabel {
+    position: absolute;
+    top: 375px;
+    left: 250px;
+
+
+}
+.herolabel a {
+    color: white;
+    text-decoration: none;
+    font-family:"Noto Serif", serif;
+    font-size: 1.5rem;
 }
 .join {
     border: solid black;
@@ -165,21 +180,8 @@ h3 {
     padding: 5px;
     width: 100%;
 }
-.spot2 {
-    border: solid black;
-    text-align: center;
-    padding: 20px;
-    background-color: white;
-    color: black;
-}
-.spot3 {
-    border: solid black;
-    text-align: center;
-    padding: 20px;
-    background-color: white;
-    color: black;
-    
-} 
+
+
 footer {
     background-color: #157c7e;
     color: white;
@@ -278,20 +280,69 @@ form label.top input:required:valid {
 /* directory */
 
 .direct {
-    display: grid;
+    /* display: grid; */
     gap: 20px 5px;
     margin: 0 auto;
     /* max-width: 800px; */
 }
-.cards {
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	
+}
+
+.grid section {
+	text-align: center;
+}
+
+
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+    justify-items: center;
+}
+.list section {
+	display: grid;
+    grid-template-columns: 2fr;
+	margin: 0;
+	padding: 0.25rem;
+    text-align: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+    
+    min-width: 500px;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	
+}
+
+.list section:nth-child(even) {
+	background-color: white;
+}
+/* .cards {
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
+    
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     background-color: white;
     text-align: center;
     gap: 20px 20px;
     font-family: Noto serif;
-}
+} */
 .cards section {
     border: 2px solid black;
     border-radius: 2px;
