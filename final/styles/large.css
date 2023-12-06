@@ -1,0 +1,73 @@
+@media screen and (min-width: 37.5em) {
+    header{
+        justify-content: center;
+        font-size: 2rem;
+        margin-top: 15px;
+        height: 200px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        width: 100%;
+    }
+    nav ul {
+		display: flex;
+	}
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .hero {
+        grid-column: 1/6;
+    }
+    .action {
+        grid-column: 1/4;
+        line-height: 2;
+        font-size: 2rem;
+    }
+    picture {
+        grid-column: 4/7;
+    }
+    .gallery {
+        display: flex;
+        gap: 200px;
+        margin: 0 auto;
+        grid-column: 1/7;
+    }
+    .summary {
+        grid-column: 1/7;
+        
+    }
+    .weather {
+        grid-column: 1/7;
+        
+    }
+    /* reservation form */
+
+    .res {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+    .agreement {
+        border: solid black 1px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .agreement h2, h3 {
+        text-align: center;
+    }
+}

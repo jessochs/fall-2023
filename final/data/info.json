@@ -1,0 +1,106 @@
+{
+    "rentals": [
+        {
+            "type": "Honda Metro Scooter",
+            "persons": "1",
+            "reservation": [
+                {
+                    "half":"$20",
+                    "full": "$30"
+                }
+            ],
+            "walk": [
+                {
+                    "half":"$25",
+                    "full":"$35"
+                }
+            
+            ]
+        }, 
+        {
+            "type": "Honda Dio Scooter",
+            "persons": "2",
+            "reservation": [
+                {
+                    "half":"$30",
+                    "full": "$40"
+                }
+            ],
+            "walk": [
+                {
+                    "half":"$35",
+                    "full":"$45"
+                }
+            
+            ]
+        },
+        {
+            "type": "Honda PCX150",
+            "persons": "2",
+            "reservation": [
+                {
+                    "half":"$40",
+                    "full": "$50"
+                }
+            ],
+            "walk": [
+                {
+                    "half":"$45",
+                    "full":"$55"
+                }
+            
+            ]
+        },
+        {
+            "type": "Honda Poineer ATV",
+            "persons": "4",
+            "reservation": [
+                {
+                    "half":"$50",
+                    "full": "$70"
+                }
+            ],
+            "walk": [
+                {
+                    "half":"$60",
+                    "full":"$80"
+                }
+            
+            ]
+        },
+        {
+            "type": "Jeep Wrangler -4 Door with a/c",
+            "persons": "5",
+            "reservation": [
+                {
+                    "half":"$70",
+                    "full": "$100"
+                }
+            ],
+            "walk": [
+                {
+                    "half":"$85",
+                    "full":"$125"
+                }
+            
+            ]
+        },
+        {
+            "type": "Jee[p Wrangler-2 Door",
+            "persons": "4",
+            "reservation": [
+                {
+                    "half":"$60",
+                    "full": "$85"
+                }
+            ],
+            "walk": [
+                {
+                    "half":"70",
+                    "full":"90"
+                }
+            
+            ]
+        }  
+    ]
+}

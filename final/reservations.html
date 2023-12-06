@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jessica Facer">
+    <meta name="description" content="WDD230 Final Project Website">
+    <meta property="og:title" content="Jessica Facer -  WDD230 -  Final Project">
+    <meta property="og:type" content="website">
+    <meta name="og:author" content="Jessica Facer">
+    <meta property="og:description" content="WDD 230 -Web Frontend Development - Jessica Facer - Course Final Project">
+    <title>Scoots Final Project</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="scoot.ico">
+
+</head>
+
+<body>
+    <header>
+        <h1>Scoots</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a> </li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="#">Reservations</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
+
+        </ul>
+    </nav>
+    <main class="res">
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>Full Name*<input type="text" id="fullName" name="fullName" required></label>
+                <label>Email*<input type="email" id="email" name="email" placeholder="name@gmail.com" required></label>
+                <label>Phone Number* <input type="tel" id="phone" name="phone" required> </label>
+                <div>Country of Origin</div>
+                <label class="middle"><input type="radio" type="country" value="united">United States</label>
+                <label class="middle"><input type="radio" type="country" value="mexico">Mexico</label>
+                <label class="middle"><input type="radio" type="country" value="canada">Canada</label>
+                <label class="middle"><input type="radio" type="country" value="other">Other</label>
+                <label class="middle">Cuise Line (if applicable) <select name="cruise">
+                        <option value="">Please Select</option>
+                        <option value="carnival">Carnival</option>
+                        <option value="royal">Royal Carribbean</option>
+                        <option value="disney">Disney</option>
+                        <option value="norwegian">Norwegian</option>
+                        <option value="princess">Princess</option>
+                    </select> </label>
+            </fieldset>
+            <fieldset>
+                <legend>Rental Information</legend>
+                <label>Desired Date* <input type="date" id="date" name="date" required> </label>
+
+                <label>Period of Time* <input type="time" id="period" name="period" required> </label>
+                <label>Rental Type <select name="rental">
+                        <option value="">Please Select</option>
+                        <option value="metro">Honda Metro Scooter</option>
+                        <option value="pcx">Honda PCX150 Scooter</option>
+                        <option value="pioneer">Honda Pioneer ATV</option>
+                        <option value="four">Jeep Wrangler 4 door with a/c</option>
+                        <option value="two">Jeep wrangler 2 door</option>
+                    </select> </label>
+                <label>Number of People* <select name="people">
+                        <option value="">Please Select</option>
+                        <option value="one">1</option>
+                        <option value="two">2</option>
+                        <option value="three">3</option>
+                        <option value="four">4</option>
+                        <option value="five">5</option>
+                    </select> </label>
+
+
+            </fieldset>
+            <fieldset>
+                <label>Comments/Accomadations<textarea id="comments" name="comments"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Book Reservation" class="submitBtn">
+        </form>
+        <section class="agreement">
+            <h2>Rental Agreement</h2>
+            <h3>By completing this rental form you agree to the terms and conditions listed below.</h3>
+            <p>A $50 deposit is required to confirm a reservation.</p>
+            <p>A valid driver's license is required to be present on the person at the time of rental.</p>
+            <p>No one under the age of 12 is allowed to ride on the scooters.</p>
+            <p>Fuel charge is not included</p>
+            <p>The vehicles have unlimited mileage</p>
+            <p>Liability insurance is included</p>
+            <p>Damage insurance is offered for an additional charge</p>
+            <p>Free delivery to Cozumel htoels or Airbnbs for 2+ day rentals</p>
+            <p>Cash, credit card, debit card, venmo, Apple Pay, and Google Pay are accepted</p>
+            <p>Rentals can be returned to either rental location</p>
+        </section>
+
+
+
+    </main>
+    <footer>
+        <p>🌷Jessica Facer🌷 .:|:. Final Project -Scoots- .:|:. WDD 230</p>
+
+    </footer>
+</body>
+
+</html>
