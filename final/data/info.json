@@ -3,104 +3,56 @@
         {
             "type": "Honda Metro Scooter",
             "persons": "1",
-            "reservation": [
-                {
-                    "half":"$20",
-                    "full": "$30"
-                }
-            ],
-            "walk": [
-                {
-                    "half":"$25",
-                    "full":"$35"
-                }
-            
-            ]
+            "reservationHalf": "$20",
+            "reservationFull": "$30",
+            "walkHalf": "$25",
+            "walkFull": "$35"
+               
         }, 
         {
             "type": "Honda Dio Scooter",
             "persons": "2",
-            "reservation": [
-                {
-                    "half":"$30",
-                    "full": "$40"
-                }
-            ],
-            "walk": [
-                {
-                    "half":"$35",
-                    "full":"$45"
-                }
+            "reservationHalf": "$30",
+            "reservationFull": "$40",
+            "walkHalf": "$35",
+            "walkFull": "$45"
             
-            ]
         },
         {
             "type": "Honda PCX150",
             "persons": "2",
-            "reservation": [
-                {
-                    "half":"$40",
-                    "full": "$50"
-                }
-            ],
-            "walk": [
-                {
-                    "half":"$45",
-                    "full":"$55"
-                }
+            "reservationHalf": "40",
+            "reservationFull": "$50",
+            "walkHalf": "$45",
+            "walkFull": "$55"
             
-            ]
         },
         {
             "type": "Honda Poineer ATV",
             "persons": "4",
-            "reservation": [
-                {
-                    "half":"$50",
-                    "full": "$70"
-                }
-            ],
-            "walk": [
-                {
-                    "half":"$60",
-                    "full":"$80"
-                }
-            
-            ]
+            "reservationHalf": "$50",
+            "reservationFull": "$70",
+            "walkHalf": "$60",
+            "walkFull": "$80"
+           
         },
         {
             "type": "Jeep Wrangler -4 Door with a/c",
             "persons": "5",
-            "reservation": [
-                {
-                    "half":"$70",
-                    "full": "$100"
-                }
-            ],
-            "walk": [
-                {
-                    "half":"$85",
-                    "full":"$125"
-                }
+            "reservationHalf": "$70",
+            "reservationFull": "$100",
+            "walkHalf": "$85",
+            "walkFull": "$125"
             
-            ]
         },
         {
-            "type": "Jee[p Wrangler-2 Door",
+            "type": "Jeep Wrangler-2 Door",
             "persons": "4",
-            "reservation": [
-                {
-                    "half":"$60",
-                    "full": "$85"
-                }
-            ],
-            "walk": [
-                {
-                    "half":"70",
-                    "full":"90"
-                }
+            "reservationHalf": "$60",
+            "reservationFull": "$85",
+            "walkHalf": "$70",
+            "walkFull": "$90"
             
-            ]
         }  
     ]
 }
