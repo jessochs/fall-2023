@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
     nav {
         display: flex;
         justify-content: center;
@@ -27,5 +27,9 @@
 
     form label, input, label select, label textarea {
         max-width: 18rem;
+    }
+    /* contact page */
+    .location1 iframe, .location2 iframe {
+        max-width: 600px;
     }
 }

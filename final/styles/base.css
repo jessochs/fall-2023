@@ -223,3 +223,15 @@ form input.submitBtn {
     border-radius: 4px;
     padding: 20px;
 }
+/* contact page */
+.contact {
+    padding: 10px;
+    margin: auto;
+    font-family: "Hedvig Letters Serif", sans-serif;
+}
+.contactInfo {
+    text-align: center;
+}
+.location1 iframe, .location2 iframe {
+    max-width: 300px;
+}
