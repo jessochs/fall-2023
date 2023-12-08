@@ -1,4 +1,4 @@
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 1000px) {
     header{
         justify-content: center;
         font-size: 2rem;
