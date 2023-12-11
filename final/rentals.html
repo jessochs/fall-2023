@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,7 @@
     <meta property="og:title" content="Jessica Facer -  WDD230 -  Final Project">
     <meta property="og:type" content="website">
     <meta name="og:author" content="Jessica Facer">
-    <meta property="og:description"
-        content="WDD 230 -Web Frontend Development - Jessica Facer - Course Final Project">
+    <meta property="og:description" content="WDD 230 -Web Frontend Development - Jessica Facer - Course Final Project">
     <title>Scoots Final Project</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -17,6 +17,7 @@
     <link rel="icon" href="scoot.ico">
 
 </head>
+
 <body>
     <header>
         <h1>Scoots</h1>
@@ -24,21 +25,64 @@
     <nav>
         <button id="menu"></button>
         <ul class="navigation">
-            <li><a href="index.html" class="active">Home</a> </li>
-            <li><a href="#">Rentals</a></li>
+            <li><a href="index.html" >Home</a> </li>
+            <li><a href="#" class="active">Rentals</a></li>
             <li><a href="reservations.html">Reservations</a> </li>
             <li><a href="contact.html">Contact</a> </li>
 
         </ul>
     </nav>
     <main class="rental">
-        
+
         <section id="display">
             <h2>Looking to Rent?</h2>
             <!-- <span id="display"></span> -->
         </section>
+        <div class="slide-container">
+            <div class="mySlides">
+                <img src="images/metro.jpg" alt="honda metro" style="width:100%">
+                <div class="text">Honda Metro Scooter</div>
+            </div>
+            
+            <div class="mySlides">
+                <img src="images/dio-new.jpg" alt="honda dio" style="width:100%">
+                <div class="text">Honda Dio Scooter</div>
+            </div>
 
-        
+            <div class="mySlides">
+                <img src="images/pcx.jpg" alt="honda pcx150" style="width:100%">
+                <div class="text">Honda PCX150 Scooter</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="images/honda-pioneer.jpg" alt="honda pioneer" style="width:100%">
+                <div class="text">Honda Pioneer ATV</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="images/jeep-two.jpg" alt="jeep two door" style="width:100%">
+                <div class="text">Jeep Wrangler 2 Door</div>
+            </div>
+
+            <div class="mySlides">
+                <img src="images/jeep.jpg" alt="jeep four" style="width:100%">
+                <div class="text">Jeep Wrangler 4 Door</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+          </div>
+
+
 
     </main>
     <footer>
@@ -47,4 +91,5 @@
     </footer>
     <script src="./scripts/rental.js"></script>
 </body>
+
 </html>
