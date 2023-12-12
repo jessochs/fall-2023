@@ -1,25 +1,24 @@
 @media screen and (min-width: 700px) {
-    nav {
+     /* nav {
         display: flex;
         justify-content: center;
-        font-size: 40px;
+        font-size: 30px;
         width: 100%;
+    } */
+    .navigation {
+        display: flex;
+        flex-direction: row;
+
     }
-    nav ul {
-		display: flex;
-	}
+    .navigation li {
+        display: block;
+        justify-content: center;
+        flex: 1 1 100%;
+    }
     #menu {
-		display: none; /* hide hamburger button */
-	}
-
-	.navigation {
-		flex-direction: row;
-	}
-
-	.navigation li {
-		display: block;
-		flex: 1 1 100%;
-	}
+        display: none;
+    }
+   
     header {
         font-size: 1rem;
     }
