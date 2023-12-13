@@ -28,7 +28,7 @@
     /* reservations */
 
     form label, input, label select, label textarea {
-        max-width: 18rem;
+        max-width: 30rem;
     }
     /* contact page */
     .location1 iframe, .location2 iframe {

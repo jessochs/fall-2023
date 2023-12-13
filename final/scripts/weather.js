@@ -45,13 +45,15 @@ function displayResults(data) {
 
 
 apiFetch();
+
+// Banner button
 let hoy = new Date();
 let semana = hoy.getDay()
 let message;
 
 if (semana >=1 && semana <= 3) {
 	
-    message = 'The maximum temperature for the day is: ';
+    message = '☀️ The maximum temperature for the day is: ';
     document.querySelector('#message').textContent = message; 
 
     let closeButton = document.createElement("button");
@@ -149,6 +151,6 @@ function displayNextDay(dataTomorrow) {
 
 
 
-// Banner button
+
 
 
