@@ -164,6 +164,7 @@ picture {
 }
 .weather {
     text-align: center;
+    font-size: 20px;
     padding: 5px;
     border: solid black 2px;
     border-radius: 5px;
