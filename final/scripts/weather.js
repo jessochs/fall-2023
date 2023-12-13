@@ -6,7 +6,7 @@ const humidity = document.querySelector('#humid');
 const tempMax = document.querySelector('#max-temp');
 
 const finalUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=20.51&lon=-86.94&units=imperial&appid=ff1561849be172f6f7573c3546d94809';
-const tomorrowUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=20.51&lon=-86.94&cnt=1&appid=ff1561849be172f6f7573c3546d94809'
+const tomorrowUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=20.51&lon=-86.94&cnt=28&appid=ff1561849be172f6f7573c3546d94809&units=imperial'
 
 async function apiFetch() {
     try {
@@ -100,7 +100,7 @@ function displayNextDay(dataTomorrow) {
 
     const dailyTemps = {};
 
-    const todayIndex = new Date().getDate();
+    const todayIndex = new Date().getDay();
 
     tomorrowList.forEach((dailyValue) => {
         const timestamp = dailyValue.dt;
@@ -122,31 +122,41 @@ function displayNextDay(dataTomorrow) {
         }
     });
 
-    const temperatures = dailyTemps[day];
-    const forecastDay = document.createElement('div');
-    forecastDay.classList.add('forecast-day') 
+    let dayCount = 0;
+    for (const day in dailyTemps) {
+        if (dayCount >=1) {
+            break;
+        }
+    
 
-    const iconsrc = 'https://openweathermap.org/img/w/01d.png';
-    let forecastName = document.createElement('h4');
-    forecastName.textContent = `${day}:`;
-    let temps = document.createElement('p');
-    temps.textContent = `${temperatures.temp.toFixed(0)} &deg;F`;
+        const temperatures = dailyTemps[day];
+        const forecastDay = document.createElement('div');
+        forecastDay.classList.add('forecast-day') 
 
-    let forecastDesc = document.createElement('p');
-    forecastDesc.textContent = temperatures.description;
+        const iconsrc = `https://openweathermap.org/img/w/${temperatures.icon}.png`;
+        // const iconsrc = 'https://openweathermap.org/img/wn/${temperatures.icon}.png';
+        let forecastName = document.createElement('h4');
+        forecastName.textContent = `${day}:`;
+        let temps = document.createElement('p');
+        temps.textContent = `${temperatures.temperature.toFixed(0)} °F`;
 
-    let forecastIcon = document.createElement('img');
-    forecastIcon.setAttribute('src', iconsrc);
-    forecastIcon.setAttribute('alt', 'icon image')
+        let forecastDesc = document.createElement('p');
+        forecastDesc.textContent = temperatures.description;
 
-    forecastDay.append(forecastName);
-    forecastDay.append(temps);
-    forecastDay.append(forecastIcon);
-    forecastDay.append(forecastDesc);
+        let forecastIcon = document.createElement('img');
+        forecastIcon.setAttribute('src', iconsrc);
+        forecastIcon.setAttribute('alt', 'icon image')
 
-    showNextDay.appendChild(forecastDay);
+        forecastDay.append(forecastName);
+        forecastDay.append(temps);
+        forecastDay.append(forecastIcon);
+        forecastDay.append(forecastDesc);
 
+        showNextDay.appendChild(forecastDay);
 
+        dayCount++;
+
+    }
 }
 
 
