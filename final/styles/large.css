@@ -51,18 +51,22 @@
         grid-column: 1/7;
     }
     .summary {
-        grid-column: 1/7;
+        grid-column: 1/4;
+        height: 100%;
+        line-height: 2;
+        padding: 20px;
         
     }
     .weather {
-        grid-column: 1/7;
+        
+        grid-column: 4/7;
+        
+        gap: 20px;
+        
         
     }
-    .adventure {
-        /* min-width: 800px; */
-        grid-column: 1/7;
-
-    }
+    
+   
     #social {
         display: flex;
         justify-content: center;
